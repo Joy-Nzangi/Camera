@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Camera"
+        parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/Orange_200</item>
+        <item name="colorPrimaryVariant">@color/Orange_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/blueish_200</item>
+        <item name="colorSecondaryVariant">@color/blueish_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor"
+            tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
